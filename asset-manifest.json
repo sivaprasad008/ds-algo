@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ds-algo/static/css/main.89c6af7b.css",
+    "main.js": "/ds-algo/static/js/main.6a93446b.js",
+    "static/js/453.3065a88b.chunk.js": "/ds-algo/static/js/453.3065a88b.chunk.js",
+    "index.html": "/ds-algo/index.html",
+    "main.89c6af7b.css.map": "/ds-algo/static/css/main.89c6af7b.css.map",
+    "main.6a93446b.js.map": "/ds-algo/static/js/main.6a93446b.js.map",
+    "453.3065a88b.chunk.js.map": "/ds-algo/static/js/453.3065a88b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89c6af7b.css",
+    "static/js/main.6a93446b.js"
+  ]
+}

@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Algorithm Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The Algorithm Visualizer is an interactive React application designed to help users understand and visualize two fundamental algorithms in computer science: **Dijkstra's Algorithm** and **Huffman Coding**. This project provides a clear and engaging way to explore the concepts, workings, and applications of these algorithms through visual representations.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### Dijkstra's Algorithm Visualization
+- Input a graph represented as nodes and edges to visualize how Dijkstra's Algorithm finds the shortest path between nodes.
+- Step-by-step execution illustrating the algorithm’s decision-making process, including updates to distances and the selected path.
+- Dropdown menu to switch between different graph configurations for enhanced learning.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Huffman Coding Visualization
+- Visualizes the process of building a Huffman Tree based on character frequencies from input text.
+- Users can enter a string, and the application displays the frequency table, constructed Huffman Tree, and generated Huffman codes in real time.
+- 'Next' button for step-by-step execution, allowing users to see tree evolution and changes in encoded and decoded outputs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Interactive User Interface
+- Modern UI with attractive color schemes inspired by popular design patterns.
+- Easy navigation between sections dedicated to Dijkstra's Algorithm and Huffman Coding.
+- Enhanced visual elements, such as animated transitions and color coding, for intuitive learning.
 
-### `npm test`
+## Technologies Used
+- **Frontend:** React, CSS Modules for styling
+- **Visualization Libraries:** [react-d3-graph, react-d3-tree]
+- **other Libraries:** [react-pdf, pdfjs-dist]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run the Project
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Run `npm start` to launch the application in your browser.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contribution
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or features you'd like to add.

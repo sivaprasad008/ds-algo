@@ -1,0 +1,84 @@
+.graph-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* Remove scrollbars */
+  color: #d4edda; /* Set default text color */
+}
+
+.graph-section {
+  flex: 2;
+  padding: 10px;
+  border-right: 1px solid #ddd; /* Optional border to separate sections */
+  height: 100%;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.info-section {
+  flex: 1;
+  padding: 10px;
+  height: 100%;
+  overflow: auto; /* Allow scrolling if content overflows */
+  display: flex;
+  flex-direction: column;
+}
+
+.graph-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff; /* Keep button text white */
+  background-color: #2e7d32;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.graph-button:disabled {
+  background-color: #6c757d;
+}
+
+.node-tables {
+  margin-top: 20px;
+  flex: 1;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.node-tables table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.node-tables th, .node-tables td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: #d4edda; /* Set table text color */
+}
+
+.node-tables th {
+  background-color: #f4f4f4;
+  color: #000; /* Keep table header text black */
+}
+
+
+.input-container {
+  margin-top: 10px;
+}
+
+.text-input {
+  width: 45%;
+  padding: 10px;
+  border: 2px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Make text bold */
+  text-transform: uppercase; /* Convert text to uppercase */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: border-color 0.3s;
+}
+
+.text-input:focus {
+  border-color: #007bff; /* Focus border color */
+  outline: none; /* Remove default outline */
+}

@@ -1,0 +1,91 @@
+
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+}
+
+.leftPane {
+  flex: 1;
+  padding: 20px;
+  border-right: 2px solid #ddd;
+  background: black; /* Ensure background is black for contrast */
+}
+
+.rightPane {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  
+}
+
+.huffmanTree {
+  height: 100%;
+  background: rgb(43, 42, 42); /* Ensure background is black for contrast */
+}
+
+.inputSection {
+  margin-bottom: 20px;
+}
+
+.frequencyTable {
+  margin-bottom: 20px;
+}
+
+.frequencyTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.frequencyTable th, .frequencyTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.huffmanCodes {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.huffmanCodes table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.huffmanCodes th, .huffmanCodes td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.encodedOutput {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  word-wrap: break-word;
+  max-width: 26rem; /* Adjust this value as needed */
+}
+
+.decodedOutput {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  max-width: 26rem; /* Adjust this value as needed */
+}
+
+.rightPane > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightPane > div > div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.rightPane > div > div:last-child {
+  margin-right: 0;
+}

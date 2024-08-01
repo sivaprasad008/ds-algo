@@ -1,0 +1,41 @@
+/* Node styles */
+.node__root > circle {
+    fill: red;
+  }
+  
+  .node__branch > circle {
+    fill: yellow;
+  }
+  
+  .node__leaf > circle {
+    fill: green;
+    /* r: 40; Larger radius for leaf nodes */
+  }
+  
+  /* Pathline styles */
+  .link__to-leaf {
+    stroke: green; /* Pathline color to leaf nodes */
+    stroke-width: 2px;
+  }
+  
+  .link__to-branch {
+    stroke: green; /* Pathline color to branch nodes */
+    stroke-width: 2px;
+  }
+  
+  /* Node text styles */
+  .node__root text {
+    fill: red; /* Text color for root nodes */
+    font-size: 14px; /* Font size for root nodes */
+  }
+  
+  .node__branch text {
+    fill: yellow; /* Text color for branch nodes */
+    font-size: 12px; /* Font size for branch nodes */
+  }
+  
+  .node__leaf text {
+    fill: green; /* Text color for leaf nodes */
+    font-size: 10px; /* Font size for leaf nodes */
+  }
+  
